@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Wikipedia</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="./logo.png" >
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Wikipedia-logo-v2.svg" alt="Wikipedia Logo">
+        </div>
+        <h1>Log in to Wikipedia</h1>
+        <form action="#">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <div class="remember">
+                <input type="checkbox" id="remember" name="remember">
+                <label for="remember">Remember me</label>
+            </div>
+
+            <button type="submit">Log in</button>
+        </form>
+
+        <div class="links">
+            <p><a href="#">Forgot your password?</a></p>
+            <p>Don't have an account? <a href="./signup.html">Create an account</a></p>
+        </div>
+    </div>
+</body>
+</html>
